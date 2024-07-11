@@ -14,6 +14,10 @@
 		BBBF9F622C3FED44001C4A74 /* MVExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9F612C3FED44001C4A74 /* MVExampleTests.swift */; };
 		BBBF9F6C2C3FED44001C4A74 /* MVExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9F6B2C3FED44001C4A74 /* MVExampleUITests.swift */; };
 		BBBF9F6E2C3FED44001C4A74 /* MVExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9F6D2C3FED44001C4A74 /* MVExampleUITestsLaunchTests.swift */; };
+		BBBF9F7C2C3FEDAD001C4A74 /* StoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9F7B2C3FEDAD001C4A74 /* StoreModel.swift */; };
+		BBBF9F7E2C3FEE83001C4A74 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9F7D2C3FEE83001C4A74 /* Product.swift */; };
+		BBBF9F812C3FEF10001C4A74 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9F802C3FEF10001C4A74 /* Webservice.swift */; };
+		BBBF9F842C400033001C4A74 /* NumberFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9F832C400033001C4A74 /* NumberFormatter+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		BBBF9F672C3FED44001C4A74 /* MVExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBF9F6B2C3FED44001C4A74 /* MVExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVExampleUITests.swift; sourceTree = "<group>"; };
 		BBBF9F6D2C3FED44001C4A74 /* MVExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BBBF9F7B2C3FEDAD001C4A74 /* StoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreModel.swift; sourceTree = "<group>"; };
+		BBBF9F7D2C3FEE83001C4A74 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		BBBF9F802C3FEF10001C4A74 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		BBBF9F832C400033001C4A74 /* NumberFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,9 @@
 		BBBF9F4F2C3FED43001C4A74 /* MVExample */ = {
 			isa = PBXGroup;
 			children = (
+				BBBF9F822C40001C001C4A74 /* Extensions */,
+				BBBF9F7F2C3FEF06001C4A74 /* Services */,
+				BBBF9F7A2C3FEDA0001C4A74 /* Models */,
 				BBBF9F502C3FED43001C4A74 /* MVExampleApp.swift */,
 				BBBF9F522C3FED43001C4A74 /* ContentView.swift */,
 				BBBF9F542C3FED43001C4A74 /* Assets.xcassets */,
@@ -125,6 +136,31 @@
 				BBBF9F6D2C3FED44001C4A74 /* MVExampleUITestsLaunchTests.swift */,
 			);
 			path = MVExampleUITests;
+			sourceTree = "<group>";
+		};
+		BBBF9F7A2C3FEDA0001C4A74 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF9F7B2C3FEDAD001C4A74 /* StoreModel.swift */,
+				BBBF9F7D2C3FEE83001C4A74 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BBBF9F7F2C3FEF06001C4A74 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF9F802C3FEF10001C4A74 /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BBBF9F822C40001C001C4A74 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF9F832C400033001C4A74 /* NumberFormatter+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBBF9F532C3FED43001C4A74 /* ContentView.swift in Sources */,
+				BBBF9F7E2C3FEE83001C4A74 /* Product.swift in Sources */,
+				BBBF9F842C400033001C4A74 /* NumberFormatter+Extension.swift in Sources */,
 				BBBF9F512C3FED43001C4A74 /* MVExampleApp.swift in Sources */,
+				BBBF9F812C3FEF10001C4A74 /* Webservice.swift in Sources */,
+				BBBF9F7C2C3FEDAD001C4A74 /* StoreModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
